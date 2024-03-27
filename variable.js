@@ -24,3 +24,11 @@ var name = 'Shahzad Hossain';
 let isMarried = false;
 let isOld = true;
 var isActive = true;
+
+//Variable-Type
+
+var ahsan_al_bashar=5; //snake case
+
+var ahsanAlBasar=6; //camel case
+
+var AhsanAlBashar=8; //pascal case
