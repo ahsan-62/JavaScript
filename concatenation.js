@@ -1,4 +1,4 @@
 var firstName='Ahsan';
 var lastName='Jun';
 var fullName=firstName+' '+lastName;
-console.log(fullName)
+console.log(typeof fullName)
