@@ -26,3 +26,11 @@ var secondLine="I am Ahsan";
 
 var results=firstLine+" "+secondLine;
 console.log(results)
+
+//Problem-4
+
+var a=119;
+var b=5;
+
+var results=a%b;
+console.log(results)
