@@ -18,3 +18,11 @@ var biology=88.35;
 
 var average=(maths+english+physics+chemistry+biology)/5;
 console.log( average.toFixed(2) )
+
+//Problem-3
+
+var firstLine="Hello World";
+var secondLine="I am Ahsan";
+
+var results=firstLine+" "+secondLine;
+console.log(results)
