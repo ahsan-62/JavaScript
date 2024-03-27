@@ -32,3 +32,14 @@ var ahsan_al_bashar=5; //snake case
 var ahsanAlBasar=6; //camel case
 
 var AhsanAlBashar=8; //pascal case
+
+//1. Cannot start with number
+//2. Cannot contain special character
+//3. Case sensitive
+//4. Can use underscore
+//5. Can use camelCase
+//6. Can use PascalCase
+//7. Can use UPPERCASE
+//8. Can use lowercase
+//9.cannot use kewords
+
