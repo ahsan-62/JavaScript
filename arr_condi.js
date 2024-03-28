@@ -19,3 +19,9 @@ console.log(age[1]);
 //Find Index
 
 console.log(age.indexOf(34));
+
+//Add and Rmeove elements by using push and pop
+
+age.push(56);
+console.log(age);
+
