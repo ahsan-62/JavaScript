@@ -47,11 +47,18 @@ console.log(".................................");
 //     num=num+2;
 // }
 
-var num=0;
-while(num<=10){
-    if(num%2!=1){
-        console.log(num);
-    }
-    num++;
-}
+// var num=0;
+// while(num<=10){
+//     if(num%2!=1){
+//         console.log(num);
+//     }
+//     num++;
+// }
 
+
+//For Loop in JS
+
+for(var i=0;i<=10;i++)
+{
+    console.log(i);
+}
