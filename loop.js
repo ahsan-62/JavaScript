@@ -58,7 +58,16 @@ console.log(".................................");
 
 //For Loop in JS
 
-for(var i=0;i<=10;i++)
-{
-    console.log(i);
+// for(var i=0;i<=10;i++)
+// {
+//     console.log(i);
+// }
+
+//Loop with Array 
+
+var num=['56','78','90','45'];
+var i=0;
+while(i<num.length){
+    console.log(num[i]);
+    i++;
 }
