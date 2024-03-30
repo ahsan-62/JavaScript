@@ -55,3 +55,23 @@ var ahsan={
 console.log(ahsan);
 ahsan.name='jun'; //inject a new property/key-value to ahsan object
 console.log(ahsan);
+
+
+//Multiple Object set and get
+
+
+var jun={
+    name:"JUN",
+    age:25,
+    id:180119,
+    reg:101792
+}
+
+console.log(jun);
+
+console.log(jun.name);
+var name=jun['name'];
+name='ahsan';
+console.log(name);
+
+name
