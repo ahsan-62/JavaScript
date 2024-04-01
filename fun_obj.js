@@ -74,3 +74,29 @@ var name = jun['name'];
 name = 'ahsan';
 console.log(name);
 
+var properties=Object.keys(jun);
+console.log(properties);
+
+
+console.log('...............................');
+
+
+for(var i=0;i<properties.length;i++)
+{
+    var propValues=jun[properties[i]];
+    console.log(properties[i],propValues);
+}
+
+
+
+
+console.log('...............................');
+
+
+for (let properties in jun) {
+
+    var propValues=jun[properties];
+    
+    console.log(properties,propValues);
+}
+
