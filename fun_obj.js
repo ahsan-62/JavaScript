@@ -81,17 +81,15 @@ console.log(properties);
 console.log('...............................');
 
 
+//Looping In Object
+
 for(var i=0;i<properties.length;i++)
 {
     var propValues=jun[properties[i]];
     console.log(properties[i],propValues);
 }
 
-
-
-
 console.log('...............................');
-
 
 for (let properties in jun) {
 
