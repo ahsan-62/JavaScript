@@ -10,3 +10,5 @@ function make_avrg(arr){
 var numbers=[90,80,70];
 var total=make_avrg(numbers);
 console.log(total);
+
+

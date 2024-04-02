@@ -20,8 +20,15 @@ console.log(age[1]);
 
 console.log(age.indexOf(34));
 
-//Add and Rmeove elements by using push and pop
+//Add and Rmeove  last elements by using push and pop
 
 age.push(56);
 console.log(age);
+age.pop();
+
+//add and remove first elements by using unshift and shift
+
+age.unshift(56);
+console.log(age);
+age.shift();
 
