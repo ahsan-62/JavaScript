@@ -74,7 +74,10 @@ var total=average(70,80,90);
 var total1=average(50,60,70);
 console.log('Total Average:',total,'Second Total Average:',total1);
 
-//Object
+//Object in Javascripts
+//...........................................................................................................
+
+
 var ahsan={
     name:'ahsan',
     age:25,
@@ -90,3 +93,35 @@ console.log(ahsan);
 
 
 console.log(ahsan.age);
+
+
+
+var jun={
+
+    name:'JUN',
+    institution: 'Eden Mohila College',
+    id:180119,
+    reg:101792
+}
+var junProperties=Object.keys(jun);
+console.log(junProperties);
+var junValues=Object.values(jun);
+console.log(junValues);
+
+
+//Get Key and values by using for loop and for in loop in javascript-Object
+for(var i=0;i<junProperties.length;i++)
+{
+
+    var propValue=jun[junProperties[i]];
+    var properties=junProperties[i];
+    console.log(properties,':',propValue);
+
+}
+
+for (const properties in jun) {
+    const propValue=jun[properties];
+    console.log(properties,':',propValue);
+}
+
+//...................................................................................................
